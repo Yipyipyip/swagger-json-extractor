@@ -12,7 +12,7 @@ A powerful Tampermonkey script that injects a **"Copy OpenAPI JSON"** button int
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
-2. **[Click here to install the script](https://raw.githubusercontent.com/Yipyipyip/swagger-json-extractor/main/swagger-extractor.user.js)**.
+2. **[Click here to install the script](https://github.com/Yipyipyip/swagger-json-extractor/releases/latest/download/swagger-extractor.user.js)**.
 3. Confirm the installation in Tampermonkey.
 
 ## 🛠 Usage
