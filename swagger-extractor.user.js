@@ -12,6 +12,7 @@
 // @updateURL    https://raw.githubusercontent.com/Yipyipyip/swagger-json-extractor/main/swagger-extractor.user.js
 // @downloadURL  https://raw.githubusercontent.com/Yipyipyip/swagger-json-extractor/main/swagger-extractor.user.js
 // @supportURL   https://github.com/Yipyipyip/swagger-json-extractor/issues
+// @license      MIT
 // ==/UserScript==
 
 (function () {

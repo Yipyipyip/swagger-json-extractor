@@ -4,11 +4,10 @@ A powerful Tampermonkey script that injects a **"Copy OpenAPI JSON"** button int
 
 ## 🚀 Features
 
-* **⚡ Instant Load:** Uses a smart observer to inject the button immediately without delay.
 * **🎯 Partial Extraction:** Extracts only the **specific endpoint** you need right now.
-* **🔄 Recursive Resolution:** Automatically resolves all `$ref` dependencies (Schemas, Enums, Models) and includes them in the JSON. The result is a fully valid, standalone OpenAPI snippet.
+* **🔄 Recursive Resolution:** Automatically resolves all `$ref` dependencies (Schemas, Enums, Models) recursively and includes them in the JSON. The result is a fully valid, standalone OpenAPI snippet.
 * **🎨 Native Look:** Clones the styling of the existing "Try it out" button for perfect integration (Dark Mode & Light Mode compatible).
-* **🔒 Fallback Security:** Works even if `window.ui` is blocked by a sandbox (scans scripts and headers).
+* **🔒 Fallbacks:** Works even if `window.ui` is blocked by a sandbox (scans scripts and headers).
 
 ## Installation
 
@@ -21,7 +20,7 @@ A powerful Tampermonkey script that injects a **"Copy OpenAPI JSON"** button int
 1. Open any Swagger UI page (e.g., your local FastAPI docs or the [Petstore](https://petstore.swagger.io/)).
 2. Expand an endpoint.
 3. Click the new **"Copy OpenAPI JSON"** button (located next to "Try it out").
-4. The valid JSON is now in your clipboard.
+4. The JSON for that endpoint and all its dependencies is now in your clipboard.
 
 ## 🤝 Contributing
 
