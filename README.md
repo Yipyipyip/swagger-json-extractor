@@ -1,15 +1,17 @@
 # Swagger UI: Extract Endpoint JSON
 
-A powerful Tampermonkey script that injects a **"Copy OpenAPI JSON"** button into any Swagger UI / FastAPI documentation.
+A Tampermonkey script that injects a **"Copy OpenAPI JSON"** button into any Swagger UI / OpenAPI / FastAPI documentation. The button provides a compact, complete context for that endpoint for AI-Assisted coding.
+
+Instead of feeding an LLM your entire (huge) `openapi.json` just to ask about one endpoint, this script extracts only the relevant part. It recursively resolves all `$ref` definitions, giving the AI a condensed representation of the endpoint. This saves tokens and improves accuracy.
 
 ## 🚀 Features
 
 * **🎯 Partial Extraction:** Extracts only the **specific endpoint** you need right now.
-* **🔄 Recursive Resolution:** Automatically resolves all `$ref` dependencies (Schemas, Enums, Models) recursively and includes them in the JSON. The result is a fully valid, standalone OpenAPI snippet.
+* **🔄 Recursive Resolution:** Automatically resolves all `$ref` dependencies (Schemas, Enums, Models) and includes them in the JSON. The result is a fully valid, standalone OpenAPI snippet.
 * **🎨 Native Look:** Clones the styling of the existing "Try it out" button for perfect integration (Dark Mode & Light Mode compatible).
 * **🔒 Fallbacks:** Works even if `window.ui` is blocked by a sandbox (scans scripts and headers).
 
-## Installation
+## 📦 Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
 2. **[Click here to install the script](https://github.com/Yipyipyip/swagger-json-extractor/releases/latest/download/swagger-extractor.user.js)**.
