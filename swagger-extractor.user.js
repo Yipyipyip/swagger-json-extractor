@@ -1,16 +1,15 @@
 // ==UserScript==
 // @name         Swagger UI: Extract Endpoint JSON
 // @namespace    https://github.com/Yipyipyip/swagger-json-extractor
-// @version      1.0
+// @version      1.3
 // @description  Adds a button to Swagger UI to copy endpoint JSON. Ideal for LLMs: extracts only the needed context (schemas, refs) for a specific endpoint, saving tokens and reducing noise compared to the full spec.
 // @author       Michael Tannenbaum
 // @match        http://localhost:*/*
 // @match        http://127.0.0.1:*/*
-// @match        *://*swagger*/*
-// @match        *://*openapi*/*
 // @match        *://*/*docs*
-// @match        *://*/*swagger*
-// @match        *://*/*openapi*
+// @match        *://*/*api*
+// @include      *swagger*
+// @include      *openapi*
 // @icon         https://static1.smartbear.co/swagger/media/assets/swagger_fav.png
 // @grant        GM_setClipboard
 // @grant        unsafeWindow
