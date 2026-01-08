@@ -9,8 +9,8 @@
 // @grant        GM_setClipboard
 // @grant        unsafeWindow
 // @run-at       document-end
-// @updateURL    https://raw.githubusercontent.com/Yipyipyip/swagger-json-extractor/main/swagger-extractor.user.js
-// @downloadURL  https://raw.githubusercontent.com/Yipyipyip/swagger-json-extractor/main/swagger-extractor.user.js
+// @updateURL    https://github.com/Yipyipyip/swagger-json-extractor/releases/latest/download/swagger-extractor.user.js
+// @downloadURL  https://github.com/Yipyipyip/swagger-json-extractor/releases/latest/download/swagger-extractor.user.js
 // @supportURL   https://github.com/Yipyipyip/swagger-json-extractor/issues
 // @license      MIT
 // ==/UserScript==
