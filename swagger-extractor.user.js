@@ -6,6 +6,8 @@
 // @author       Michael Tannenbaum
 // @match        http://localhost:*/*
 // @match        http://127.0.0.1:*/*
+// @match        *://*swagger*/*
+// @match        *://*openapi*/*
 // @match        *://*/*docs*
 // @match        *://*/*swagger*
 // @match        *://*/*openapi*
