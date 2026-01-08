@@ -4,7 +4,11 @@
 // @version      1.0
 // @description  Adds a button to Swagger UI to copy endpoint JSON. Ideal for LLMs: extracts only the needed context (schemas, refs) for a specific endpoint, saving tokens and reducing noise compared to the full spec.
 // @author       Michael Tannenbaum
-// @match        *://*/*
+// @match        http://localhost:*/*
+// @match        http://127.0.0.1:*/*
+// @match        *://*/*docs*
+// @match        *://*/*swagger*
+// @match        *://*/*openapi*
 // @icon         https://static1.smartbear.co/swagger/media/assets/swagger_fav.png
 // @grant        GM_setClipboard
 // @grant        unsafeWindow
